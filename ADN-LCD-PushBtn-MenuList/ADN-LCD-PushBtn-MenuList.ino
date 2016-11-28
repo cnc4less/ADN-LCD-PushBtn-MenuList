@@ -4,6 +4,8 @@
 
 /* Objet LCD sur les broches utilisées par la shield LCD DFrobots */
 static LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
+void doMainMenuAction(byte );
+void doFreemanMenuAction(byte );
 
 /* Menu principal */
 static const char* MAIN_MENU_ITEMS[] = {
